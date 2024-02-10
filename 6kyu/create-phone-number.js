@@ -38,8 +38,10 @@
  * @since 2024-02-10
  */
 function createPhoneNumber(numbers) {
-    const firstPart = numbers.slice(0, 3).join('').replace(/[ ,]/g, "");
-    const middlePart = numbers.slice(3, 6).join('').replace(/[ ,]/g, "");;
-    const lastPart = numbers.slice(6, 10).join('').replace(/[ ,]/g, "");;
+    const firstPart = numbers.slice(0, 3).join('')
+    const middlePart = numbers.slice(3, 6).join('')
+    const lastPart = numbers.slice(6, 10).join('')
     return `(${firstPart}) ${middlePart}-${lastPart}`;
 }
+
+createPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0])
