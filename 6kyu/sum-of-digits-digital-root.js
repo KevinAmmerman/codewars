@@ -16,3 +16,14 @@ function digitalRoot(n) {
     if (sum <= 10) return sum
     else return digitalRoot(sum);
 }
+
+
+function digitalRoot(n) {
+    let sum = 0;
+    const string = n.toString()
+    for (const e of string) sum += Number(e)
+    while (sum > 9) {
+        return digitalRoot(sum);
+    }
+    return sum;
+}
