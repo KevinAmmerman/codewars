@@ -13,7 +13,7 @@ function digitalRoot(n) {
     let sum = 0;
     const string = n.toString()
     for (const e of string) sum += Number(e)
-    if (sum <= 10) return sum
+    if (sum < 10) return sum
     else return digitalRoot(sum);
 }
 
