@@ -7,10 +7,10 @@
 
 function reverseWords(str) {
     const string = str.split(" ")
-    let test = '';
+    let string2 = '';
     for (let i = 0; i < string.length; i++) {
         const element = string[i];
-        test += element.split("").reverse().join("") 
+        string2 += element.split("").reverse().join("") 
     }
     const x = str.replaceAll(/[a-zA-Z!.,?]/g, '0');
     const reverstedString = test.split("").reduce((acc, l) => acc.replace('0', l), x);
