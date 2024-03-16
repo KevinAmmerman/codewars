@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('A Needle in the Haystack')
+convertForFileName('String repeat')
