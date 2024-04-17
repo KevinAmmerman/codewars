@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('String repeat')
+convertForFileName('String ends with?')
