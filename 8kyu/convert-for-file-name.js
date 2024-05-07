@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('String ends with?')
+convertForFileName('Stop gninnipS My sdroW')
