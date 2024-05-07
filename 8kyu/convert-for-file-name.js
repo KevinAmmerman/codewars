@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Stop gninnipS My sdroW')
+convertForFileName('Credit Card Mask')
