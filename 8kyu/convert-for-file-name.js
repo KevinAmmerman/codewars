@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Credit Card Mask')
+convertForFileName('Printer Errors')
