@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Printer Errors')
+convertForFileName('Array Prototype Last')
