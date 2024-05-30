@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Array Prototype Last')
+convertForFileName('To Be Or Not To Be')
