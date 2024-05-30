@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Add Two Promises')
+convertForFileName('Filter Elements from Array')
