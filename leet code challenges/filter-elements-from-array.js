@@ -44,7 +44,7 @@
  */
 var filter = function(arr, fn) {
     let filteredArray = [];
-    arr.map((e, i) => {
+    arr.forEach((e, i) => {
         if(fn.length > 1 && fn(e)) filteredArray.push(e);
         else if(fn(e, i)) filteredArray.push(e);
     })
