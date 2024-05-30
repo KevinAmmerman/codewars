@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Array Reduce Transformation')
+convertForFileName('Add Two Promises')
