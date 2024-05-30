@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('To Be Or Not To Be')
+convertForFileName('Counter II')
