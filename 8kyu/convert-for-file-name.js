@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName)
 }
 
-convertForFileName('Counter II')
+convertForFileName('Array Reduce Transformation')
