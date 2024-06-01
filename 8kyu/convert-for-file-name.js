@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName);
 }
 
-convertForFileName('Calculator with Method Chaining');
+convertForFileName('Apply Transform Over Each Element in Array');
