@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName);
 }
 
-convertForFileName('Allow One Function Call');
+convertForFileName('Interval Cancellation');
