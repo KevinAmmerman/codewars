@@ -3,4 +3,4 @@ function convertForFileName(string) {
     console.log(fileName);
 }
 
-convertForFileName('Apply Transform Over Each Element in Array');
+convertForFileName('Allow One Function Call');
